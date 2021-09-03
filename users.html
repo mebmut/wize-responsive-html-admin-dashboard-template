@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin SWB</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="site-widget">
+            <div class="widget-heading">
+                <img src="images/logo.png" alt="">
+            </div>
+
+            <div class="widget-conatiner">
+                <a href="posts.html">
+                <div class="widget-image"><i class="fa fa-book"></i></div>
+                <div class="widget-link">Posts</div>
+                </a>
+            </div>
+            <div class="widget-conatiner active">
+                <a href="users.html">
+                    <div class="widget-image"><i class="fa fa-user-friends"></i></div>
+                    <div class="widget-link">Users</div>
+                </a>
+            </div>
+            <div class="widget-conatiner">
+                <a href="notification.html">
+                    <div class="widget-image"><i class="fa fa-envelope"></i></div>
+                    <div class="widget-link">Notices</div>
+                </a>
+            </div>
+            <div class="widget-conatiner">
+                <a href="plugins.html">
+                    <div class="widget-image"><i class="fa fa-plane-departure"></i></div>
+                    <div class="widget-link">Plugins</div>
+                </a>
+            </div>
+            <div class="widget-conatiner">
+                <a href="themes.html">
+                    <div class="widget-image"><i class="fa fa-theater-masks"></i></div>
+                    <div class="widget-link">Themes</div>
+                </a>
+            </div>
+            <div class="widget-conatiner">
+                <a href="widgets.html">
+                    <div class="widget-image"><i class="fa fa-window-restore"></i></div>
+                    <div class="widget-link">Widgets</div>
+                </a>
+            </div>
+            <div class="widget-conatiner">
+                <a href="settings.html">
+                    <div class="widget-image"><i class="fa fa-tools"></i></div>
+                    <div class="widget-link">Settings</div>
+                </a>
+            </div>
+            <div class="widget-conatiner">
+                <a href="massages.html">
+                    <div class="widget-image"><i class="fa fa-pencil-alt"></i></div>
+                    <div class="widget-link">Massages</div>
+                </a>
+            </div>
+
+            <div class="widget-conatiner">
+                <a href="index.html">
+                    <div class="widget-image"><i class="fa fa-globe"></i></div>
+                    <div class="widget-link">Activities</div>
+                </a>
+            </div>
+            
+        </div>
+        <div class="site-content">
+
+            <header class="content-header">
+                <div class="menu-container">
+                    <div class="menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="theme">
+                        <div class="" id="dark-mode">
+                            <span></span>
+                        </div>
+                        <span class="mode">Mode</span>
+                    </div>
+                </div>
+                <div class="search-box">
+                    <input type="text" name="search" id="" placeholder="Search...">
+                </div>
+                <div class="access">
+                    <span class="user"></span>
+                    <div class="access-links">
+                        <p>Maybin Mutale</p>
+                        <a href="">Logout</a>
+                    </div>
+                </div>
+            </header>
+
+            <main class="content-main">
+                <section class="content-container">
+                    <div class="form-wrapper" id="form-wrapper">
+                        <div class="wrapper-header">
+                            <i id="btn-title">Add User</i>
+                            <button id="add-post">Add User</button>
+                        </div>
+                        <form action="" class="post-form" id="post-form">
+                            <div class="form-inputs">
+
+                                <div class="input-split">
+                                    <div class="input-wrapper">
+                                        <label for="fname">First Name</label>
+                                        <input type="text" name="fname" id="fname">
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <label for="lname">Last Name</label>
+                                        <input type="text" name="lname" id="lname">
+                                    </div>
+                                </div>
+                                
+                                <div class="input-split">
+                                    <div class="input-wrapper">
+                                        <label for="username">Username</label>
+                                        <input type="text" name="username" id="username">
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <label for="email">Email</label>
+                                        <input type="email" name="email" id="email">
+                                    </div>
+                                </div>
+
+                                <div class="input-split">
+                                    <div class="input-wrapper">
+                                        <label for="password">Password</label>
+                                        <input type="password" name="password" id="password">
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <label for="confirm">Confirm Password</label>
+                                        <input type="password" name="confirm" id="confirm">
+                                    </div>
+                                </div>
+
+                                <div class="input-split">
+                                    <div class="input-wrapper">
+                                        <label for="user-row">Asign Row</label>
+                                        <select name="acl" id="user-row">
+                                            <option value="User">User</option>
+                                            <option value="Admin">Admin</option>
+                                            <option value="Manager">Manager</option>
+                                            <option value="Contributor">Contributor</option>
+                                        </select>
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <input type="submit" name="submit" id="submit" value="Submit">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-wrapper image">
+                                <h4>Profile Picture</h4>
+                                <div class="image-preview">
+                                    <img src="" alt="" id="imagePreview">
+                                </div>
+                                <label for="image" class="file-selector">Choose Image</label>
+                                <input type="file" name="image" id="image" >
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                <section class="data-preview grid-full">
+                    <div class="data-box">
+                        <div class="data-header">
+                            <h4 class="title">Site Users</h4>
+                            <div class="limit-input">
+                                <label for="number">Limit</label>
+                                <select name="limit" id="limit">
+                                     <option value="10">10</option>
+                                     <option value="25">25</option>
+                                     <option value="50">50</option>
+                                     <option value="100">100</option>
+                                     <option value="150">150</option>
+                                     <option value="200">200</option>
+                                     <option value="250">250</option>
+                                     <option value="500">500</option>
+                                     <option value="1000">1000</option>
+                                     <option value="0">ifinite</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="data-body split-6">
+                            <div class="row head">
+                                <div class="data-holder">Username</div>
+                                <div class="data-holder">Fname</div>
+                                <div class="data-holder">Lname</div>
+                                <div class="data-holder">Email</div>
+                                <div class="data-holder">Row</div>
+                                <div class="data-holder">Action</div>
+                            </div>
+                            <div class="row">
+                                <div class="data-holder">Mebmut</div>
+                                <div class="data-holder">Mutale</div>
+                                <div class="data-holder">Nonde</div>
+                                <div class="data-holder">mebmut@gmail.com</div>
+                                <div class="data-holder">Admin</div>
+                                <div class="data-holder">
+                                    <a href="" class="edit"><i class="fa fa-edit"></i></a>
+                                    <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="data-holder">Justinbrown</div>
+                                <div class="data-holder">Jonsone</div>
+                                <div class="data-holder">hibrahim</div>
+                                <div class="data-holder">hibs24@gmail.com</div>
+                                <div class="data-holder">User</div>
+                                <div class="data-holder">
+                                    <a href="" class="edit"><i class="fa fa-edit"></i></a>
+                                    <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="data-holder">Abstruct</div>
+                                <div class="data-holder">Memory</div>
+                                <div class="data-holder">Santinago</div>
+                                <div class="data-holder">memoryabs@gmail.com</div>
+                                <div class="data-holder">Contributor</div>
+                                <div class="data-holder">
+                                    <a href="" class="edit"><i class="fa fa-edit"></i></a>
+                                    <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

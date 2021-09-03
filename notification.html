@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin SWB</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="site-widget">
+            <div class="widget-heading">
+                <img src="images/logo.png" alt="">
+            </div>
+
+            <div class="widget-conatiner">
+                <a href="posts.html">
+                <div class="widget-image"><i class="fa fa-book"></i></div>
+                <div class="widget-link">Posts</div>
+                </a>
+            </div>
+            <div class="widget-conatiner">
+                <a href="users.html">
+                    <div class="widget-image"><i class="fa fa-user-friends"></i></div>
+                    <div class="widget-link">Users</div>
+                </a>
+            </div>
+            <div class="widget-conatiner active">
+                <a href="notification.html">
+                    <div class="widget-image"><i class="fa fa-envelope"></i></div>
+                    <div class="widget-link">Notices</div>
+                </a>
+            </div>
+            <div class="widget-conatiner">
+                <a href="plugins.html">
+                    <div class="widget-image"><i class="fa fa-plane-departure"></i></div>
+                    <div class="widget-link">Plugins</div>
+                </a>
+            </div>
+            <div class="widget-conatiner">
+                <a href="themes.html">
+                    <div class="widget-image"><i class="fa fa-theater-masks"></i></div>
+                    <div class="widget-link">Themes</div>
+                </a>
+            </div>
+            <div class="widget-conatiner">
+                <a href="widgets.html">
+                    <div class="widget-image"><i class="fa fa-window-restore"></i></div>
+                    <div class="widget-link">Widgets</div>
+                </a>
+            </div>
+            <div class="widget-conatiner">
+                <a href="settings.html">
+                    <div class="widget-image"><i class="fa fa-tools"></i></div>
+                    <div class="widget-link">Settings</div>
+                </a>
+            </div>
+            <div class="widget-conatiner">
+                <a href="massages.html">
+                    <div class="widget-image"><i class="fa fa-pencil-alt"></i></div>
+                    <div class="widget-link">Massages</div>
+                </a>
+            </div>
+
+            <div class="widget-conatiner">
+                <a href="index.html">
+                    <div class="widget-image"><i class="fa fa-globe"></i></div>
+                    <div class="widget-link">Activities</div>
+                </a>
+            </div>
+        </div>
+        <div class="site-content">
+
+            <header class="content-header">
+                <div class="menu-container">
+                    <div class="menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="theme">
+                        <div class="" id="dark-mode">
+                            <span></span>
+                        </div>
+                        <span class="mode">Mode</span>
+                    </div>
+                </div>
+                <div class="search-box">
+                    <input type="text" name="search" id="" placeholder="Search...">
+                </div>
+                <div class="access">
+                    <span class="user"></span>
+                    <div class="access-links">
+                        <p>Maybin Mutale</p>
+                        <a href="">Logout</a>
+                    </div>
+                </div>
+            </header>
+
+            <main class="content-main">
+                <section class="data-preview grid-full">
+                    <div class="preview-container">
+                        <div class="data-box">
+                            <div class="data-header">
+                                <h4 class="title">Notifications</h4>
+                                <div class="limit-input">
+                                    <label for="number">Limit</label>
+                                    <select name="limit" id="limit">
+                                         <option value="10">10</option>
+                                         <option value="25">25</option>
+                                         <option value="50">50</option>
+                                         <option value="100">100</option>
+                                         <option value="150">150</option>
+                                         <option value="200">200</option>
+                                         <option value="250">250</option>
+                                         <option value="500">500</option>
+                                         <option value="1000">1000</option>
+                                         <option value="0">ifinite</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="data-body notices">
+                                <div class="row head">
+                                    <div class="data-holder">By</div>
+                                    <div class="data-holder">Type</div>
+                                    <div class="data-holder">Date</div> 
+                                    <div class="data-holder">Target</div>
+                                    <div class="data-holder">Action</div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Mebmut</div>
+                                    <div class="data-holder">Music upload</div>
+                                    <div class="data-holder">1 minute ago</div>
+                                    <div class="data-holder">2567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Poul G</div>
+                                    <div class="data-holder">Music upload</div>
+                                    <div class="data-holder">20 minute ago</div>
+                                    <div class="data-holder">896678</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">D beatz</div>
+                                    <div class="data-holder">Video upload</div>
+                                    <div class="data-holder">30 minute ago</div>
+                                    <div class="data-holder">12567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Kas Kay</div>
+                                    <div class="data-holder">Info edit</div>
+                                    <div class="data-holder">1 minute ago</div>
+                                    <div class="data-holder">202567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">James Malama</div>
+                                    <div class="data-holder">Song edit</div>
+                                    <div class="data-holder">46 minute ago</div>
+                                    <div class="data-holder">20567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Mebmut</div>
+                                    <div class="data-holder">Music upload</div>
+                                    <div class="data-holder">1 minute ago</div>
+                                    <div class="data-holder">2567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Poul G</div>
+                                    <div class="data-holder">Music upload</div>
+                                    <div class="data-holder">20 minute ago</div>
+                                    <div class="data-holder">896678</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">D beatz</div>
+                                    <div class="data-holder">Video upload</div>
+                                    <div class="data-holder">30 minute ago</div>
+                                    <div class="data-holder">12567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Kas Kay</div>
+                                    <div class="data-holder">Info edit</div>
+                                    <div class="data-holder">1 minute ago</div>
+                                    <div class="data-holder">202567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">James Malama</div>
+                                    <div class="data-holder">Song edit</div>
+                                    <div class="data-holder">46 minute ago</div>
+                                    <div class="data-holder">20567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Mebmut</div>
+                                    <div class="data-holder">Music upload</div>
+                                    <div class="data-holder">1 minute ago</div>
+                                    <div class="data-holder">2567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Poul G</div>
+                                    <div class="data-holder">Music upload</div>
+                                    <div class="data-holder">20 minute ago</div>
+                                    <div class="data-holder">896678</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">D beatz</div>
+                                    <div class="data-holder">Video upload</div>
+                                    <div class="data-holder">30 minute ago</div>
+                                    <div class="data-holder">12567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Kas Kay</div>
+                                    <div class="data-holder">Info edit</div>
+                                    <div class="data-holder">1 minute ago</div>
+                                    <div class="data-holder">202567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">James Malama</div>
+                                    <div class="data-holder">Song edit</div>
+                                    <div class="data-holder">46 minute ago</div>
+                                    <div class="data-holder">20567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Mebmut</div>
+                                    <div class="data-holder">Music upload</div>
+                                    <div class="data-holder">1 minute ago</div>
+                                    <div class="data-holder">2567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Poul G</div>
+                                    <div class="data-holder">Music upload</div>
+                                    <div class="data-holder">20 minute ago</div>
+                                    <div class="data-holder">896678</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">D beatz</div>
+                                    <div class="data-holder">Video upload</div>
+                                    <div class="data-holder">30 minute ago</div>
+                                    <div class="data-holder">12567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Kas Kay</div>
+                                    <div class="data-holder">Info edit</div>
+                                    <div class="data-holder">1 minute ago</div>
+                                    <div class="data-holder">202567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">James Malama</div>
+                                    <div class="data-holder">Song edit</div>
+                                    <div class="data-holder">46 minute ago</div>
+                                    <div class="data-holder">20567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Mebmut</div>
+                                    <div class="data-holder">Music upload</div>
+                                    <div class="data-holder">1 minute ago</div>
+                                    <div class="data-holder">2567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Poul G</div>
+                                    <div class="data-holder">Music upload</div>
+                                    <div class="data-holder">20 minute ago</div>
+                                    <div class="data-holder">896678</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">D beatz</div>
+                                    <div class="data-holder">Video upload</div>
+                                    <div class="data-holder">30 minute ago</div>
+                                    <div class="data-holder">12567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Kas Kay</div>
+                                    <div class="data-holder">Info edit</div>
+                                    <div class="data-holder">1 minute ago</div>
+                                    <div class="data-holder">202567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">James Malama</div>
+                                    <div class="data-holder">Song edit</div>
+                                    <div class="data-holder">46 minute ago</div>
+                                    <div class="data-holder">20567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Mebmut</div>
+                                    <div class="data-holder">Music upload</div>
+                                    <div class="data-holder">1 minute ago</div>
+                                    <div class="data-holder">2567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Poul G</div>
+                                    <div class="data-holder">Music upload</div>
+                                    <div class="data-holder">20 minute ago</div>
+                                    <div class="data-holder">896678</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">D beatz</div>
+                                    <div class="data-holder">Video upload</div>
+                                    <div class="data-holder">30 minute ago</div>
+                                    <div class="data-holder">12567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">Kas Kay</div>
+                                    <div class="data-holder">Info edit</div>
+                                    <div class="data-holder">1 minute ago</div>
+                                    <div class="data-holder">202567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">James Malama</div>
+                                    <div class="data-holder">Song edit</div>
+                                    <div class="data-holder">46 minute ago</div>
+                                    <div class="data-holder">20567</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="preview-container">
+                        <div class="data-box">
+                            <div class="data-header">
+                                <h4 class="title">User Surgetions</h4>
+                                <div class="limit-input">
+                                    <label for="number">Limit</label>
+                                    <select name="limit" id="limit">
+                                         <option value="10">10</option>
+                                         <option value="25">25</option>
+                                         <option value="50">50</option>
+                                         <option value="100">100</option>
+                                         <option value="150">150</option>
+                                         <option value="200">200</option>
+                                         <option value="250">250</option>
+                                         <option value="500">500</option>
+                                         <option value="1000">1000</option>
+                                         <option value="0">ifinite</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="data-body surgetions">
+                                <div class="row head">
+                                    <div class="data-holder">Surgetion</div>
+                                    <div class="data-holder">Date</div>
+                                    <div class="data-holder">Location</div>
+                                    <div class="data-holder">Action</div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">It would be nice if you added a...</div>
+                                    <div class="data-holder">3 hours ago</div>
+                                    <div class="data-holder">zambia</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">It would be nice if you added a...</div>
+                                    <div class="data-holder">3 hours ago</div>
+                                    <div class="data-holder">zambia</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">It would be nice if you added a...</div>
+                                    <div class="data-holder">3 hours ago</div>
+                                    <div class="data-holder">zambia</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">It would be nice if you added a...</div>
+                                    <div class="data-holder">3 hours ago</div>
+                                    <div class="data-holder">zambia</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">It would be nice if you added a...</div>
+                                    <div class="data-holder">3 hours ago</div>
+                                    <div class="data-holder">zambia</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">It would be nice if you added a...</div>
+                                    <div class="data-holder">3 hours ago</div>
+                                    <div class="data-holder">zambia</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">It would be nice if you added a...</div>
+                                    <div class="data-holder">3 hours ago</div>
+                                    <div class="data-holder">zambia</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">It would be nice if you added a...</div>
+                                    <div class="data-holder">3 hours ago</div>
+                                    <div class="data-holder">zambia</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">It would be nice if you added a...</div>
+                                    <div class="data-holder">3 hours ago</div>
+                                    <div class="data-holder">zambia</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="data-holder">It would be nice if you added a...</div>
+                                    <div class="data-holder">3 hours ago</div>
+                                    <div class="data-holder">zambia</div>
+                                    <div class="data-holder">
+                                        <a href="" class="view"><i class="fa fa-eye"></i></a>
+                                        <a href="" class="delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

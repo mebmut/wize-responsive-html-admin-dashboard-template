@@ -1,0 +1,139 @@
+.flex{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.flex-wrap{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+    align-items: center;
+}
+.settings-badge{
+    height: 40px;
+    width: 155px;
+    display: grid;
+    grid-template-columns: 1fr 55px;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.014);
+    border-radius: .7rem;
+    border: .001px solid rgba(255, 255, 255, 0.0001);
+    box-shadow: var(--badgeBoxShadow),
+    0px 0px 4px rgba(0, 0, 0, .5) inset;
+}
+.badge-name{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: var(--textColor);
+}
+.switch{
+    width: 52px;
+    height: 28px;
+    display: flex;
+    color: white;
+    padding: 3px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--swithBg);
+    border-radius: 1rem;
+    border: 1px solid var(--borderSwitch);
+    box-shadow:  0px 0px 2px rgba(0, 0, 0, 0.192);
+}
+.switch .off{
+    font-size: 13px;
+    padding-right: 3.8px;
+}
+.switch span{
+    color: var(--textColor);
+}
+.switch-button{
+    width: 23px;
+    height: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    background:rgba(12, 228, 228, 0.089);
+    display: grid;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    align-items: center;
+    transition: margin .5s;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.233);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5),
+    0px 0px 5px rgba(0, 0, 0, .5) inset;
+}
+.switch-button.on{
+    margin-left: 22px;
+    background: rgba(255, 255, 255, 0.801);
+}
+.title{
+    color: var(--blue);
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 1.7rem;
+    padding: 5px 0px;
+    margin: 10px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.192);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.123);
+}
+.flex-wrap .title{
+    color: var(--textColor);
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    font-family: sans-serif;
+}
+.grid-badge{
+    width: 200px;
+    height: 90px;
+    display: grid;
+    padding-bottom: .5rem;
+    justify-content: center;
+    border-radius: 1rem;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.062);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377),var(--badgeBoxShadow);
+}
+.grid-badge input{
+    width: 80px;
+    outline: none;
+    border-radius: 1rem;
+    height: 25px;
+    outline: none;
+    color: var(--previewTitleColor);
+    letter-spacing: 1px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.021);
+    border: .5px solid rgba(255, 255, 255, 0.073);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+.admin-rows{
+    background:rgba(255, 255, 255, 0.007);
+    width: 145px;
+    display: grid;
+    border: 1px solid rgba(255, 255, 255, 0.075);
+    justify-content: space-around;
+    align-items: center;
+    border-radius: .5rem;
+    padding: .5rem;
+    box-shadow: 0px 0px 5px rgba(134, 134, 134, 0.075),
+    0px 0px 5px rgba(0, 0, 0, 0.295) inset;
+}
+.checkbox-wrapper{
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid rgba(78, 77, 77, 0.062);
+}
+.checkbox-wrapper label{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
